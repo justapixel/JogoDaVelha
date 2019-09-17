@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>JogoDaVelha</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+    <button class="btn" onclick="nomear()">Nomear Jogadores</button>
+    <button class="btn" onclick="restart()">Reiniciar o Jogo</button>
+    </div>
+    <div class='game'></div>
+    <script src="js/game.js"></script>
+    <script>
+        init( document.querySelector('.game') );
+        start();
+    </script>
+    <script src="js/sweetalert.min.js"></script>
+</body>
+</html>
